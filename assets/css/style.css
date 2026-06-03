@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.movie-card {
+    border: none;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#message {
+    min-height: 30px;
+}
+
+#movie-details img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#movie-details h2 {
+    font-weight: bold;
+}
+
+#movie-details p {
+    font-size: 18px;
+}
