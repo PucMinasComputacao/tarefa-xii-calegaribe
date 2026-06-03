@@ -1,21 +1,64 @@
-# Trabalho Prático - Semana 11
+# Catálogo de Filmes com TMDB
 
-Nessa etapa, vamos evoluir o trabalho anterior, acrescentando a página de detalhes, conforme o  projeto escolhido. Imagine que a página principal (home-page) mostre um visão dos vários itens que existem no seu site. Ao clicar em um item, você é direcionado pra a página de detalhes. A página de detalhe vai mostrar todas as informações sobre o item do seu projeto. seja esse item uma notícia, filme, receita, lugar turístico ou evento.
+## Nome
 
-Vamos dar um exemplo, se você escolheu o Portal de notícias locais, então sua página principal (home-page) mostra todas as notícias. Ao clicar no titulo ou na imagem de uma notícia específica, você é direcionado para a página de detalhes que trará o texto completo da notícia, o autor e outros detalhes adicionais sobre aquela notícia. O mesmo vai acontecer para todos os demais tipos de projetos. 
+Bernardo Calegari de Oliveira Simeão 
 
-IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai precisar dessa parte para as próximas semanas. 
+## Matrícula
+915110
+## Descrição
 
-## Informações Gerais
+Este projeto foi desenvolvido utilizando JavaScript, Fetch API e a API do TMDB para exibir um catálogo de filmes de forma dinâmica.
 
-- Nome:
-- Matricula:
+A aplicação realiza requisições assíncronas para buscar filmes populares e também permite pesquisar filmes pelo nome. Os dados recebidos em JSON são tratados e renderizados em cards utilizando manipulação do DOM.
 
-## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+## Funcionalidades
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+* Listagem de filmes populares
+* Pesquisa de filmes por nome
+* Cards dinâmicos
+* Exibição de:
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+  * Poster
+  * Título
+  * Ano
+  * Nota
+  * Sinopse
+* Tratamento de erro
+* Mensagem de carregamento
+* Mensagem quando não há resultados
 
+## Endpoint utilizado
+
+### Filmes populares
+
+/movie/popular
+
+### Pesquisa de filmes
+
+/search/movie
+
+## Tecnologias utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5
+* Fetch API
+* TMDB API
+
+## Prints do projeto
+
+### Tela inicial
+![alt text](image.png)
+
+### Resultado da pesquisa
+![alt text](image-1.png)
+
+## Como executar
+
+1. Abrir o projeto no VS Code
+2. Instalar a extensão Live Server
+3. Abrir o arquivo `index.html`
+4. Executar com Live Server
